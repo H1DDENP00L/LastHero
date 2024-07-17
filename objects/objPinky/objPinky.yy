@@ -34,7 +34,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"sprPinkyIdle",
     "path":"sprites/sprPinkyIdle/sprPinkyIdle.yy",

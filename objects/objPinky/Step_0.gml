@@ -1,4 +1,3 @@
-/// @description Вставьте описание здесь
 // Переменные для гравитации и прыжка
 var grav = 0.5;
 var jump_speed = -10;
@@ -81,14 +80,11 @@ if (!place_meeting(x, y + 1, objPlatform) and !place_meeting(x, y + 1, objGround
     sprite_index = sprPinkyJump;
 }
 
-//-----------------------------------/////
-
-
 // Проверка нажатия правой кнопки мыши
 if (mouse_check_button_pressed(mb_right)) {
     // Смена спрайта на анимацию броска
     sprite_index = sprThrowing;
-    image_speed = 0.2; // Скорость анимации, настройте по необходимости
+    image_speed = 0.1; // Скорость анимации, настройте по необходимости
 
     // Создание снаряда
     var projectile = instance_create_layer(x, y, "Instances", objProjectile);
@@ -101,9 +97,14 @@ if (sprite_index == sprThrowing and image_index >= image_number - 1) {
     image_speed = 1; // Возвращение нормальной скорости анимации
 }
 
+// Ваш текущий код передвижения и логики игрока
 
-/// @description Обновление таймера задержки получения урона
 // Обновление таймера задержки получения урона
 if (damage_timer > 0) {
     damage_timer -= 1;
+}
+
+// Проверка здоровья игрока
+if (player_health <= 0) {
+    room_restart();
 }

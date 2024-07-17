@@ -4,7 +4,7 @@ function draw_health() {
     var y_offset = 10;
     var spacing = 50; // Расстояние между сердечками
     
-    for (var i = 0; i < current_health; i++) {
+    for (var i = 0; i < max_health; i++) {
         if (i < current_health) {
             draw_sprite(sprHealthPoint, 0, x + x_offset + i * spacing, y + y_offset);
         } else {
