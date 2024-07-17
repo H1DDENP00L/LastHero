@@ -9,8 +9,8 @@
   "name":"objLevelThreeCamera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"RoomThree",
+    "path":"folders/Объекты/RoomThree.yy",
   },
   "parentObjectId":null,
   "persistent":false,

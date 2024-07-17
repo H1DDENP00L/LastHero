@@ -64,8 +64,17 @@ switch (state) {
 
     case "death":
         if (image_index >= image_number - 1) {
-            instance_destroy();
+        // Запускаем таймер перед переходом в другую комнату
+        if (!variable_global_exists("death_timer")) {
+            global.death_timer = 180; // 3 секунды (3 * 60 FPS)
         }
+
+        global.death_timer -= 30;
+
+        if (global.death_timer <= 0) {
+            room_goto(room_Ending);
+        }
+    }
         break;
 }
 

@@ -9,8 +9,8 @@
   "name":"objPortalLevelThree",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"RoomTwo",
+    "path":"folders/Объекты/RoomTwo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

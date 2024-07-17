@@ -1,0 +1,43 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_second_quest",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_second_quest",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_quest_parent","path":"objects/obj_quest_parent/obj_quest_parent.yy",},"propertyId":{"name":"quest_text","path":"objects/obj_quest_parent/obj_quest_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Get to the portal\\novercoming obstacles!\\nTo attack press RMB\\nGood Luck!",},
+  ],
+  "parent":{
+    "name":"RoomTwo",
+    "path":"folders/Объекты/RoomTwo.yy",
+  },
+  "parentObjectId":{
+    "name":"obj_quest_parent",
+    "path":"objects/obj_quest_parent/obj_quest_parent.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"spr_quest_section",
+    "path":"sprites/spr_quest_section/spr_quest_section.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

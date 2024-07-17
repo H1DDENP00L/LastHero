@@ -9,8 +9,8 @@
   "name":"objPortal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"RoomOne",
+    "path":"folders/Объекты/RoomOne.yy",
   },
   "parentObjectId":null,
   "persistent":false,

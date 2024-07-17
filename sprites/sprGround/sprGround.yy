@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Спрайты",
-    "path":"folders/Спрайты.yy",
+    "name":"GlobalGameRoomsSprite",
+    "path":"folders/Спрайты/GlobalGameRoomsSprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
